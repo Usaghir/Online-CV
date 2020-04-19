@@ -166,11 +166,7 @@ footer {
 ------------------------------------*/
 @media screen and (min-width: 750px) {
 
-  .all-content-box img {
-    float: left;
-    margin-right: 20px;
-  }
-
+  
   header, footer {
     text-align: center;
   }
@@ -200,8 +196,5 @@ footer {
   h2 {
     line-height: 1;
   }
-  img {
-    float: top;
-  }
-
+  
 }
