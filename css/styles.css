@@ -47,6 +47,7 @@ h2 {
 }
 
 .content-wrap {
+  
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
@@ -70,34 +71,34 @@ h2 {
   border: none;
 }
 
-
-
-
 /* Image
 ------------------------------------*/
 img {
 
-  position: relative;
+ 
   border-radius: 50%;
-  top: 90px;
-  left: 130px;
-  width: 200px;
-  float: left;
-  padding: 20px;
+  width: 120px;
+  margin-bottom: -40px;
+  margin-top: 50px;
+  
 }
 
 
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
+  background: #393e42;
   color: #F7FFF7;
+}
+
+header h2 {
+  margin-bottom: 30px;
 }
 
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #f5f9fb;
 }
 
 .divider article {
@@ -131,6 +132,8 @@ header {
   color: #BD5D38;
 }
 
+
+
 .skillHead {
 
   text-align: center;
@@ -139,19 +142,31 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
+  background: #eb9a05;
   color: #F7FFF7;
 }
 
+
+
 .contact-list a {
-  padding: 5px;
   display: inline-block;
 }
 
 .contact-list {
   list-style-type: none;
-  font-size: 5rem;
+  font-size: 3rem;
+  
 }
+
+.contact-list i:hover {
+  color: #BD5D38;
+}
+
+.contact-list i {
+  color: rgb(232, 235, 240);
+}
+
+
 
 
 
@@ -160,13 +175,13 @@ footer {
 ------------------------------------*/
 @media screen and (min-width: 750px) {
 
-  header, footer {
-    text-align: center;
-  }
-
-  .project-item img {
+  .content-wrap img {
     float: left;
     margin-right: 20px;
+  }
+
+  header, footer {
+    text-align: center;
   }
 
   .job-item {
@@ -179,8 +194,6 @@ footer {
     display: flex;
     justify-content: center;
   }
-
- 
 
   .contact-list a {
     padding: 15px;
@@ -196,6 +209,8 @@ footer {
   h2 {
     line-height: 1;
   }
-
+  img {
+    float: top;
+  }
 
 }
